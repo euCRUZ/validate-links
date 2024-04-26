@@ -1,0 +1,32 @@
+{
+  "name": "validate-links",
+  "version": "1.0.0",
+  "description": "This project is a Node.js command-line tool that processes a given file or directory path. It checks if the path is valid, reads the file or directory, and prints a list of links found. If the --valida flag is provided, it validates the links before printing. The output is color-coded using the chalk library. The pegaArquivo function is used to read the file or directory, and the listaValidada function is used to validate the links.",
+  "keywords": ["markdown", "URL"],
+  "main": "./cli.js",
+  "bin": {
+    "validate-links": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<seu-user>/<seu-repo>.git"
+  },
+  "author": "Giovanni Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/euCRUZ"
+  },
+  "homepage": "https://github.com/euCRUZ",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+ }
