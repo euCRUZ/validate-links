@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<seu-user>/<seu-repo>.git"
+    "url": "git+https://github.com/euCRUZ/validate-links.git"
   },
   "author": "Giovanni Cruz",
   "license": "ISC",
